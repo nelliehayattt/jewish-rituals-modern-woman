@@ -18,7 +18,7 @@ export function OfferingsSection() {
         sizes="100vw"
       />
 
-      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(88,33,60,0.9)_0%,rgba(128,60,93,0.78)_54%,rgba(128,60,93,0.24)_100%)] md:bg-[linear-gradient(90deg,rgba(88,33,60,0.98)_0%,rgba(128,60,93,0.92)_52%,rgba(128,60,93,0.15)_100%)]" />
+      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(88,33,60,0.82)_0%,rgba(128,60,93,0.62)_48%,rgba(128,60,93,0.12)_100%)] md:bg-[linear-gradient(90deg,rgba(88,33,60,0.98)_0%,rgba(128,60,93,0.92)_52%,rgba(128,60,93,0.15)_100%)]" />
 
       <div className="relative z-10 flex min-h-[420px] items-center px-6 py-12 md:min-h-[500px] md:px-10 md:py-18">
         <div className="max-w-2xl text-white">
