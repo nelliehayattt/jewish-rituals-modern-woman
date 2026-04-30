@@ -1,4 +1,3 @@
-import { siteMetadata } from "@/data/site";
 import Image from "next/image";
 import heroImage from "@/public/images/SvitlanaSorokaPhotographer_DSC_7711.jpg";
 
@@ -46,12 +45,10 @@ export function HeroSection() {
 
           <div className="mt-8 flex flex-wrap items-center gap-4 md:mt-9">
             <a
-              href={siteMetadata.bookingUrl}
-              target="_blank"
-              rel="noreferrer"
+              href="#offerings"
               className="inline-flex h-11 items-center justify-center rounded-full bg-[linear-gradient(135deg,#8f3f6a_0%,#7e335c_100%)] px-7 text-[0.72rem] font-semibold uppercase tracking-[0.22em] text-white transition-colors duration-200 hover:opacity-92"
             >
-              Book a Session
+              Work With Me
             </a>
             <a
               href="#events"
