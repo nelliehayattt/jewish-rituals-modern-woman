@@ -60,7 +60,7 @@ export function HeroSection() {
         </div>
       </div>
 
-      <div className="relative min-h-[38vh] sm:min-h-[47vh] md:min-h-screen">
+      <div className="relative min-h-[46vh] sm:min-h-[54vh] md:min-h-screen">
         <Image
           src={heroImage}
           alt="Woman standing outdoors in soft natural light"
