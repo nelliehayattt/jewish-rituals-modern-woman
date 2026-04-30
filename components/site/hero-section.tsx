@@ -37,9 +37,8 @@ export function HeroSection() {
 
           <p className="max-w-[18rem] text-[1.32rem] leading-[1.22] text-[var(--color-copy)] sm:max-w-[22rem] sm:text-[1.46rem] md:max-w-[28rem] md:text-[1.85rem]">
             <span className="font-display italic text-[var(--color-rose)]">
-              For the woman seeking more
-              <br />
-              depth, meaning, and connection.
+              For modern Jewish women seeking to reconnect with ritual, rhythm,
+              and a living lineage.
             </span>
           </p>
 

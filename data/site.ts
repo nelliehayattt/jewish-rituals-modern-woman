@@ -2,8 +2,10 @@ export const siteMetadata = {
   name: "Jewish Rituals for the Modern Woman",
   title: "Jewish Rituals for the Modern Woman",
   description:
-    "A guide to Jewish womanhood through ritual, offering mikveh, Rosh Chodesh, challah, Shabbat, workshops, and sessions for Jewish women seeking more depth, meaning, and belonging.",
+    "Jewish Woman Rituals is a platform dedicated to teaching Jewish rituals for women, including mikveh, Rosh Chodesh, challah, and Shabbat practices, in a way that feels meaningful for modern life.",
   tagline: "Torah • Body • Ritual • Soul",
+  footerDescription:
+    "Jewish Woman Rituals is a platform dedicated to teaching Jewish rituals for women, including mikveh, Rosh Chodesh, challah, and Shabbat practices, in a way that feels meaningful for modern life.",
   introEmail: "hello@thejewishwomanblueprint.com",
   bookingUrl: "https://stan.store/nelliehayat",
   bookInquiryUrl: "mailto:hello@thejewishwomanblueprint.com?subject=Book%20Inquiry",
@@ -15,8 +17,8 @@ export const pillars = [
   {
     number: "01",
     title: "Her Tribe",
-    lead: "Sarah. Rivka. Rachel. Leah. Miriam. Esther. Ruth. Judith.",
-    text: "You belong to a lineage of strong Jewish women. They were mothers, community leaders, builders, and protectors. Their stories are not history. They are your map.",
+    lead: "You belong to a lineage of Jewish women: Sarah, Rivka, Rachel, Leah, Miriam, Esther, Ruth, and Judith.",
+    text: "They were mothers, leaders, builders, and protectors. They carried faith, rebuilt, and brought holiness into the world. Their stories are not history. They are a map. Your blueprint.",
   },
   {
     number: "02",

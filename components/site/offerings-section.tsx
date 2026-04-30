@@ -33,6 +33,10 @@ export function OfferingsSection() {
 
           <div className="mb-5 h-px w-20 bg-[var(--color-gold)] md:mb-6 md:w-24" />
 
+          <p className="mb-4 text-[0.8rem] font-semibold uppercase tracking-[0.24em] text-[#f8dbe5] md:mb-5 md:text-[0.82rem]">
+            Learn. Practice. Integrate.
+          </p>
+
           <ul className="space-y-3.5 md:space-y-4">
             {primaryOfferings.map((offering) => (
               <li key={offering.title} className="max-w-xl">
