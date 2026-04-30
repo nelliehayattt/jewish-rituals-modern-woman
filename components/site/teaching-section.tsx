@@ -9,13 +9,15 @@ export function TeachingSection() {
         dir="rtl"
         className="mb-4 font-display text-[clamp(2rem,10vw,4rem)] text-[var(--color-burgundy)] md:mb-5"
       >
-        כל נשמה יורדת לעולם לתקן
+        שלוש מצוות נצטוו הנשים: נידה, חלה והדלקת הנר
       </h2>
 
       <p className="mx-auto max-w-3xl text-[0.95rem] leading-6 text-[var(--color-copy)] md:text-[1rem] md:leading-7">
-        Kabbalah teaches that every soul enters this world with a purpose: to
-        reveal something holy, refine what is broken, and elevate what is
-        waiting to be transformed.
+        This teaching, from the Mishnah, the first written record of Jewish
+        wisdom passed down through generations, entrusts three sacred mitzvot
+        to Jewish women: niddah (mikveh), challah, and lighting Shabbat
+        candles, each carrying a unique power to bring presence, holiness, and
+        life into the world.
       </p>
     </section>
   );
