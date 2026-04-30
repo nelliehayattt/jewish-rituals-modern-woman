@@ -15,8 +15,8 @@ export function AboutSection() {
             sizes="(min-width: 768px) 42vw, 100vw"
             priority={false}
           />
-          <div className="absolute inset-x-0 top-0 h-[24%] bg-[linear-gradient(180deg,rgba(255,249,244,0.96)_0%,rgba(255,249,244,0.48)_55%,rgba(255,249,244,0)_100%)] md:hidden" />
-          <p className="absolute left-6 top-3 z-10 text-[0.78rem] font-semibold uppercase tracking-[0.28em] text-[var(--color-muted)] md:hidden">
+          <div className="absolute inset-x-0 top-0 h-[28%] bg-[linear-gradient(180deg,rgba(255,249,244,1)_0%,rgba(255,249,244,0.82)_46%,rgba(255,249,244,0.18)_88%,rgba(255,249,244,0)_100%)] md:hidden" />
+          <p className="absolute left-6 top-3 z-10 text-[0.8rem] font-semibold uppercase tracking-[0.28em] text-[var(--color-burgundy)] md:hidden">
             {aboutNellie.title}
           </p>
           <div className="absolute inset-x-0 bottom-0 h-[14%] bg-[linear-gradient(180deg,rgba(255,249,244,0)_0%,rgba(255,249,244,0.45)_72%,rgba(255,249,244,1)_100%)] md:inset-y-0 md:right-0 md:left-auto md:h-auto md:w-[38%] md:bg-[linear-gradient(90deg,rgba(255,249,244,0)_0%,rgba(255,249,244,0.84)_52%,rgba(255,249,244,1)_100%)]" />
