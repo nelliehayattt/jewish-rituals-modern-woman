@@ -25,8 +25,8 @@ export function VisionSection() {
           </p>
           <p>
             For those who are just beginning, or returning in their own way,
-            yet feel deeply Jewish and want more depth, meaning, and a stronger
-            connection to identity, feminine power, and purpose.
+            who feel deeply Jewish and long for more depth, meaning, and a
+            stronger connection to identity, feminine power, and purpose.
           </p>
         </div>
       </div>
