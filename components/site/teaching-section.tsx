@@ -9,15 +9,15 @@ export function TeachingSection() {
         dir="rtl"
         className="mb-4 font-display text-[clamp(2rem,10vw,4rem)] text-[var(--color-burgundy)] md:mb-5"
       >
-        שלוש מצוות נצטוו הנשים: נידה, חלה והדלקת הנר
+        נידה, חלה והדלקת הנר
       </h2>
 
-      <p className="mx-auto max-w-3xl text-[0.95rem] leading-6 text-[var(--color-copy)] md:text-[1rem] md:leading-7">
-        This teaching, from the Mishnah, the first written record of Jewish
-        wisdom passed down through generations, entrusts three sacred mitzvot
-        to Jewish women: niddah (mikveh), challah, and lighting Shabbat
-        candles, each carrying a unique power to bring presence, holiness, and
-        life into the world.
+      <p className="mx-auto max-w-4xl text-[0.95rem] leading-6 text-[var(--color-copy)] md:text-[1rem] md:leading-7">
+        In the Mishnah, the first written record of Jewish wisdom passed down
+        through generations, three sacred mitzvot are entrusted to Jewish
+        women: niddah (mikveh), challah, and lighting Shabbat candles, each
+        carrying a distinct power to bring presence, holiness, and life into
+        the world.
       </p>
     </section>
   );
