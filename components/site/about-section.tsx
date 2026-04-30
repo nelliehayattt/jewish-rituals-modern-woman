@@ -6,16 +6,16 @@ export function AboutSection() {
   return (
     <section className="bg-[var(--color-cream)] pt-0 pb-4">
       <div className="grid items-start gap-0 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] md:gap-10">
-        <div className="relative min-h-[21rem] overflow-hidden sm:min-h-[23rem] md:min-h-[29rem]">
+        <div className="relative min-h-[22rem] overflow-hidden sm:min-h-[23rem] md:min-h-[29rem]">
           <Image
             src={aboutImage}
             alt="Nellie Hayat speaking in community"
             fill
-            className="object-cover object-[50%_-2.2rem] md:object-[38%_center]"
+            className="object-cover object-[52%_-4.75rem] md:object-[38%_center]"
             sizes="(min-width: 768px) 42vw, 100vw"
             priority={false}
           />
-          <div className="absolute inset-x-0 bottom-0 h-[28%] bg-[linear-gradient(180deg,rgba(255,249,244,0)_0%,rgba(255,249,244,0.78)_64%,rgba(255,249,244,1)_100%)] md:inset-y-0 md:right-0 md:left-auto md:h-auto md:w-[38%] md:bg-[linear-gradient(90deg,rgba(255,249,244,0)_0%,rgba(255,249,244,0.84)_52%,rgba(255,249,244,1)_100%)]" />
+          <div className="absolute inset-x-0 bottom-0 h-[18%] bg-[linear-gradient(180deg,rgba(255,249,244,0)_0%,rgba(255,249,244,0.62)_68%,rgba(255,249,244,1)_100%)] md:inset-y-0 md:right-0 md:left-auto md:h-auto md:w-[38%] md:bg-[linear-gradient(90deg,rgba(255,249,244,0)_0%,rgba(255,249,244,0.84)_52%,rgba(255,249,244,1)_100%)]" />
         </div>
 
         <div className="px-6 pt-6 md:max-w-2xl md:px-10 md:pt-10">
