@@ -70,7 +70,7 @@ export function HeroSection() {
           className="object-cover object-[center_20%] md:object-[center_22%]"
           sizes="(min-width: 768px) 50vw, 100vw"
         />
-        <div className="absolute inset-y-0 left-0 w-[48%] bg-[linear-gradient(90deg,rgba(255,249,244,1)_0%,rgba(255,249,244,0.9)_38%,rgba(255,249,244,0.42)_68%,rgba(255,249,244,0)_100%)] md:w-[42%] md:bg-[linear-gradient(90deg,rgba(255,249,244,1)_0%,rgba(255,249,244,0.92)_32%,rgba(255,249,244,0.55)_62%,rgba(255,249,244,0)_100%)]" />
+        <div className="hidden md:absolute md:inset-y-0 md:left-0 md:block md:w-[42%] md:bg-[linear-gradient(90deg,rgba(255,249,244,1)_0%,rgba(255,249,244,0.92)_32%,rgba(255,249,244,0.55)_62%,rgba(255,249,244,0)_100%)]" />
       </div>
     </section>
   );

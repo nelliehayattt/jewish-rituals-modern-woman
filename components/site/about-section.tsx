@@ -11,7 +11,7 @@ export function AboutSection() {
             src={aboutImage}
             alt="Nellie Hayat speaking in community"
             fill
-            className="object-cover object-[42%_22%] md:object-[38%_center]"
+            className="object-cover object-[44%_8%] md:object-[38%_center]"
             sizes="(min-width: 768px) 42vw, 100vw"
             priority={false}
           />
