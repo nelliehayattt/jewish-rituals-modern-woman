@@ -60,7 +60,7 @@ export function HeroSection() {
         </div>
       </div>
 
-      <div className="relative min-h-[34vh] sm:min-h-[44vh] md:min-h-screen">
+      <div className="relative min-h-[30vh] sm:min-h-[40vh] md:min-h-screen">
         <Image
           src={heroImage}
           alt="Woman standing outdoors in soft natural light"
@@ -71,6 +71,7 @@ export function HeroSection() {
           sizes="(min-width: 768px) 50vw, 100vw"
         />
         <div className="hidden md:absolute md:inset-y-0 md:left-0 md:block md:w-[42%] md:bg-[linear-gradient(90deg,rgba(255,249,244,1)_0%,rgba(255,249,244,0.92)_32%,rgba(255,249,244,0.55)_62%,rgba(255,249,244,0)_100%)]" />
+        <div className="absolute inset-x-0 bottom-0 h-[16%] bg-[linear-gradient(180deg,rgba(255,249,244,0)_0%,rgba(255,245,239,0.7)_68%,rgba(255,245,239,1)_100%)] md:hidden" />
       </div>
     </section>
   );
