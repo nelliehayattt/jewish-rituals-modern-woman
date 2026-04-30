@@ -18,7 +18,7 @@ export function AboutSection() {
           <div className="absolute inset-x-0 bottom-0 h-[14%] bg-[linear-gradient(180deg,rgba(255,249,244,0)_0%,rgba(255,249,244,0.45)_72%,rgba(255,249,244,1)_100%)] md:inset-y-0 md:right-0 md:left-auto md:h-auto md:w-[38%] md:bg-[linear-gradient(90deg,rgba(255,249,244,0)_0%,rgba(255,249,244,0.84)_52%,rgba(255,249,244,1)_100%)]" />
         </div>
 
-        <div className="px-6 pt-5 md:max-w-2xl md:px-10 md:pt-10">
+        <div className="relative z-10 -mt-5 bg-[var(--color-cream)] px-6 pt-4 md:mt-0 md:max-w-2xl md:bg-transparent md:px-10 md:pt-10">
           <p className="mb-2.5 text-[0.8rem] font-semibold uppercase tracking-[0.28em] text-[var(--color-muted)] md:mb-3 md:text-sm">
             {aboutNellie.title}
           </p>
