@@ -7,7 +7,7 @@ export function HeroSection() {
       id="top"
       className="relative overflow-hidden bg-[var(--color-cream)] md:grid md:min-h-screen md:grid-cols-[minmax(0,0.52fr)_minmax(0,0.48fr)]"
     >
-      <div className="relative z-10 flex items-center px-6 pb-12 pt-24 md:px-10 md:pb-20 md:pt-30">
+      <div className="relative z-10 flex items-center px-6 pb-8 pt-22 md:px-10 md:pb-20 md:pt-30">
         <div className="relative max-w-[20rem] sm:max-w-[25rem] md:max-w-[34rem]">
           <div className="mb-5 flex items-center gap-3 md:mb-8 md:gap-4">
             <div className="flex items-center gap-3">
@@ -60,7 +60,7 @@ export function HeroSection() {
         </div>
       </div>
 
-      <div className="relative min-h-[40vh] sm:min-h-[50vh] md:min-h-screen">
+      <div className="relative min-h-[34vh] sm:min-h-[44vh] md:min-h-screen">
         <Image
           src={heroImage}
           alt="Woman standing outdoors in soft natural light"
