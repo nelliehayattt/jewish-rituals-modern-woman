@@ -17,8 +17,8 @@ export const pillars = [
   {
     number: "01",
     title: "Her Tribe",
-    lead: "You belong to a lineage of Jewish women: Sarah, Rivka, Rachel, Leah, Miriam, Esther, Ruth, and Judith.",
-    text: "They were mothers, leaders, builders, and protectors. They carried faith, rebuilt, and brought holiness into the world. Their stories are not history. They are a map. Your blueprint.",
+    lead: "You belong to a lineage of Jewish women.",
+    text: "Sarah, Rivka, Rachel, Leah, Miriam, Esther, Ruth, and Judith were mothers, leaders, builders, and protectors. They carried faith, rebuilt, and brought holiness into the world. Their stories are not history. They are a map.",
   },
   {
     number: "02",
