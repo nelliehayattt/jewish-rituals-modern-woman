@@ -6,6 +6,12 @@ export function AboutSection() {
   return (
     <section className="bg-[var(--color-cream)] pt-0 pb-4">
       <div className="grid items-start gap-0 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] md:gap-10">
+        <div className="border-y border-[color:rgba(73,23,41,0.08)] px-6 py-3 md:hidden">
+          <p className="text-[0.78rem] font-semibold uppercase tracking-[0.28em] text-[var(--color-muted)]">
+            {aboutNellie.title}
+          </p>
+        </div>
+
         <div className="relative min-h-[14.5rem] overflow-hidden sm:min-h-[18rem] md:min-h-[29rem]">
           <Image
             src={aboutImage}
@@ -18,8 +24,8 @@ export function AboutSection() {
           <div className="absolute inset-x-0 bottom-0 h-[14%] bg-[linear-gradient(180deg,rgba(255,249,244,0)_0%,rgba(255,249,244,0.45)_72%,rgba(255,249,244,1)_100%)] md:inset-y-0 md:right-0 md:left-auto md:h-auto md:w-[38%] md:bg-[linear-gradient(90deg,rgba(255,249,244,0)_0%,rgba(255,249,244,0.84)_52%,rgba(255,249,244,1)_100%)]" />
         </div>
 
-        <div className="relative z-10 -mt-5 bg-[var(--color-cream)] px-6 pt-4 md:mt-0 md:max-w-2xl md:bg-transparent md:px-10 md:pt-10">
-          <p className="mb-2.5 text-[0.8rem] font-semibold uppercase tracking-[0.28em] text-[var(--color-muted)] md:mb-3 md:text-sm">
+        <div className="px-6 pt-5 md:max-w-2xl md:px-10 md:pt-10">
+          <p className="mb-2.5 hidden text-[0.8rem] font-semibold uppercase tracking-[0.28em] text-[var(--color-muted)] md:mb-3 md:block md:text-sm">
             {aboutNellie.title}
           </p>
 
