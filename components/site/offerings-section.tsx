@@ -14,7 +14,7 @@ export function OfferingsSection() {
         alt="Portrait in motion under warm evening light"
         fill
         placeholder="blur"
-        className="object-cover object-[62%_center] md:object-center"
+        className="object-cover object-[74%_24%] md:object-center"
         sizes="100vw"
       />
 
