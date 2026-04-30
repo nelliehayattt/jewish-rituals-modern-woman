@@ -5,29 +5,29 @@ import { aboutNellie } from "@/data/site";
 export function AboutSection() {
   return (
     <section className="bg-[var(--color-cream)] pt-0 pb-4">
-      <div className="grid items-start gap-8 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] md:gap-10">
-        <div className="relative min-h-[27rem] overflow-hidden md:min-h-[29rem]">
+      <div className="grid items-start gap-0 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] md:gap-10">
+        <div className="relative min-h-[20rem] overflow-hidden sm:min-h-[23rem] md:min-h-[29rem]">
           <Image
             src={aboutImage}
             alt="Nellie Hayat speaking in community"
             fill
-            className="object-cover object-[38%_center]"
+            className="object-cover object-[42%_22%] md:object-[38%_center]"
             sizes="(min-width: 768px) 42vw, 100vw"
             priority={false}
           />
-          <div className="absolute inset-y-0 right-0 w-[38%] bg-[linear-gradient(90deg,rgba(255,249,244,0)_0%,rgba(255,249,244,0.84)_52%,rgba(255,249,244,1)_100%)]" />
+          <div className="absolute inset-x-0 bottom-0 h-[36%] bg-[linear-gradient(180deg,rgba(255,249,244,0)_0%,rgba(255,249,244,0.82)_58%,rgba(255,249,244,1)_100%)] md:inset-y-0 md:right-0 md:left-auto md:h-auto md:w-[38%] md:bg-[linear-gradient(90deg,rgba(255,249,244,0)_0%,rgba(255,249,244,0.84)_52%,rgba(255,249,244,1)_100%)]" />
         </div>
 
-        <div className="px-6 pt-8 md:max-w-2xl md:px-10 md:pt-10">
-          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.28em] text-[var(--color-muted)]">
+        <div className="px-6 pt-6 md:max-w-2xl md:px-10 md:pt-10">
+          <p className="mb-2.5 text-[0.8rem] font-semibold uppercase tracking-[0.28em] text-[var(--color-muted)] md:mb-3 md:text-sm">
             {aboutNellie.title}
           </p>
 
-          <h2 className="mb-5 font-display text-[clamp(2.2rem,4.5vw,3.5rem)] leading-[0.98] text-[var(--color-burgundy)]">
+          <h2 className="mb-4 font-display text-[clamp(2rem,9vw,3.5rem)] leading-[0.98] text-[var(--color-burgundy)] md:mb-5">
             Rooted in leadership, ritual, and community.
           </h2>
 
-          <div className="space-y-4 text-[0.98rem] leading-7 text-[var(--color-copy)]">
+          <div className="space-y-4 text-[0.94rem] leading-6 text-[var(--color-copy)] md:text-[0.98rem] md:leading-7">
             {aboutNellie.paragraphs.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>
             ))}
