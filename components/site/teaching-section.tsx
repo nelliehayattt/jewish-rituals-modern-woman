@@ -12,7 +12,7 @@ export function TeachingSection() {
         נידה, חלה והדלקת הנר
       </h2>
 
-      <p className="mx-auto max-w-4xl text-[0.95rem] leading-6 text-[var(--color-copy)] md:text-[1rem] md:leading-7">
+      <p className="mx-auto max-w-5xl text-[0.95rem] leading-6 text-[var(--color-copy)] md:text-[1rem] md:leading-7">
         In the Mishnah, the first written record of Jewish wisdom passed down
         through generations, three sacred mitzvot are entrusted to Jewish
         women: niddah (mikveh), challah, and lighting Shabbat candles, each
