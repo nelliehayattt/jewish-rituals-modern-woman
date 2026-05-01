@@ -5,8 +5,8 @@ import { aboutNellie } from "@/data/site";
 export function AboutSection() {
   return (
     <section className="bg-[var(--color-cream)] pt-0 pb-4">
-      <div className="grid items-start gap-0 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] md:gap-10">
-        <div className="relative min-h-[14.5rem] overflow-hidden sm:min-h-[18rem] md:min-h-[29rem]">
+      <div className="grid items-start gap-0 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] md:items-stretch md:gap-10">
+        <div className="relative min-h-[14.5rem] overflow-hidden sm:min-h-[18rem] md:min-h-[29rem] md:h-full">
           <Image
             src={aboutImage}
             alt="Nellie Hayat speaking in community"
