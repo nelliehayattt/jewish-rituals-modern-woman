@@ -25,6 +25,11 @@ export const pillars = [
     title: "Her Rituals",
     lead: "Mikveh. Rosh Chodesh. Candle lighting. Sacred study.",
     text: "Jewish rituals for women that honor the cycles and seasons of a woman's body, awaken creative power, strengthen the heart, and invite the sacred into everyday life.",
+    links: [
+      { label: "Mikveh", href: "/mikveh-for-women" },
+      { label: "Challah", href: "/challah" },
+      { label: "Nerot", href: "/nerot" },
+    ],
   },
   {
     number: "03",
