@@ -109,7 +109,7 @@ export const pastEvents = [
 export const aboutNellie = {
   title: "About Nellie",
   paragraphs: [
-    "Nellie Hayat is a public speaker, leadership expert, and Jewish ritual guide based in Los Angeles. For over a decade, she has worked with leaders across Silicon Valley while also teaching mikveh and niddah, guiding women one-on-one, and helping Jewish women deepen their connection to ritual, identity, and purpose.",
+    "Nellie Hayat is a public speaker, experience designer, and Jewish ritual guide based in Los Angeles. For over a decade, she has worked with leaders across Silicon Valley while also teaching mikveh and niddah, guiding women one-on-one, and helping Jewish women deepen their connection to ritual, identity, and purpose.",
     "Since 2020, Nellie and her husband have built Frida's House, a vibrant Venice community that has opened its doors to artists, healers, and the local Jewish community. She has been a longtime champion of At The Well, served as a mikveh attendant in San Francisco, and continues to deepen her study through a program of the Israeli Ministry of Religious Affairs.",
   ],
 };
