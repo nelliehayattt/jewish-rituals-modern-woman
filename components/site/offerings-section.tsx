@@ -1,10 +1,6 @@
 import Image from "next/image";
 import portraitImage from "@/public/images/SvitlanaSorokaPhotographer_DSC_7285.jpg";
-import {
-  primaryOfferings,
-  secondaryOfferingNote,
-  siteMetadata,
-} from "@/data/site";
+import { primaryOfferings } from "@/data/site";
 
 export function OfferingsSection() {
   return (
@@ -37,7 +33,7 @@ export function OfferingsSection() {
             Learn. Practice. Integrate.
           </p>
 
-          <ul className="space-y-3.5 md:space-y-4">
+          <ul className="space-y-3 md:space-y-4">
             {primaryOfferings.map((offering) => (
               <li key={offering.title} className="max-w-xl">
                 <a
@@ -59,16 +55,6 @@ export function OfferingsSection() {
               </li>
             ))}
           </ul>
-
-          <p className="mt-4 max-w-xl text-[0.88rem] leading-[1.45] text-[#f3dbe5] md:mt-5 md:text-[0.92rem] md:leading-6">
-            Also available for {secondaryOfferingNote.toLowerCase()}{" "}
-            <a
-              href={siteMetadata.speakingInquiryUrl}
-              className="underline decoration-white/35 underline-offset-4 transition-colors duration-200 hover:text-white"
-            >
-              Reach out.
-            </a>
-          </p>
         </div>
       </div>
     </section>
