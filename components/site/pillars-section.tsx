@@ -55,7 +55,7 @@ export function PillarsSection() {
 
                 {"links" in pillar && pillar.links ? (
                   <p className="max-w-none text-[0.82rem] font-semibold uppercase tracking-[0.16em] text-[var(--color-muted)] md:max-w-[16.5rem]">
-                    Click:{" "}
+                    Read more here:{" "}
                     {pillar.links.map((link, linkIndex) => (
                       <span key={link.href}>
                         <Link
