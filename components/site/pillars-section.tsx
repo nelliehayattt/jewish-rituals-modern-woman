@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { pillars } from "@/data/site";
 
 export function PillarsSection() {
@@ -53,24 +52,6 @@ export function PillarsSection() {
                   {pillar.text}
                 </p>
 
-                {"links" in pillar && pillar.links ? (
-                  <p className="max-w-none text-[0.82rem] font-semibold uppercase tracking-[0.16em] text-[var(--color-muted)] md:max-w-[16.5rem]">
-                    Read more here:{" "}
-                    {pillar.links.map((link, linkIndex) => (
-                      <span key={link.href}>
-                        <Link
-                          href={link.href}
-                          className="text-[var(--color-burgundy)] transition-colors duration-200 hover:text-[var(--color-rose)]"
-                        >
-                          {link.label}
-                        </Link>
-                        {linkIndex < pillar.links.length - 1 ? (
-                          <span className="px-1.5 text-[var(--color-gold)]">•</span>
-                        ) : null}
-                      </span>
-                    ))}
-                  </p>
-                ) : null}
               </div>
             </article>
           ))}
