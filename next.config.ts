@@ -8,6 +8,16 @@ const nextConfig: NextConfig = {
         destination: "/mikveh-beach-club",
         permanent: true,
       },
+      {
+        source: "/challah",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/nerot",
+        destination: "/",
+        permanent: true,
+      },
     ];
   },
 };
