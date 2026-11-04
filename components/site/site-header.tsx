@@ -17,7 +17,7 @@ export function SiteHeader() {
         <div className="flex items-center gap-3 md:gap-5">
           <Link
             href="/mikveh-beach-club"
-            className="text-[0.62rem] font-semibold uppercase tracking-[0.14em] text-[var(--color-rose)] transition-colors duration-200 hover:text-[var(--color-burgundy)] md:text-[0.68rem] md:tracking-[0.18em]"
+            className="inline-flex h-9 items-center justify-center rounded-full bg-[var(--color-rose)] px-4 text-[0.6rem] font-semibold uppercase tracking-[0.12em] text-white transition-colors duration-200 hover:bg-[var(--color-burgundy)] md:h-10 md:px-5 md:text-[0.66rem] md:tracking-[0.16em]"
           >
             <span className="md:hidden">Beach Club</span>
             <span className="hidden md:inline">Mikveh Beach Club</span>

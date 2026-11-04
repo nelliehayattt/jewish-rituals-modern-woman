@@ -625,7 +625,7 @@
   margin-top: 8px;
 }
 
-.mbc-page .founder-book-link {
+.mbc-page .founder-links a {
   display: grid;
   width: fit-content;
   gap: 2px;
@@ -635,14 +635,14 @@
   text-align: left;
 }
 
-.mbc-page .founder-book-link span {
+.mbc-page .founder-links span {
   color: var(--coral);
   font-size: 0.72rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 
-.mbc-page .founder-book-link em {
+.mbc-page .founder-links em {
   display: block;
   font-family: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
   font-size: 1.18rem;
@@ -651,21 +651,19 @@
 }
 
 .mbc-page .founder-links {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 18px 28px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, max-content));
+  align-items: start;
+  gap: 18px 32px;
   margin-top: 20px;
   padding-top: 18px;
   border-top: 1px solid rgba(149, 68, 49, 0.22);
 }
 
-.mbc-page .founder-links > a:first-child {
-  color: var(--pomegranate);
-  font-family: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
-  font-size: 1.25rem;
-  font-style: italic;
-  border-bottom: 1px solid rgba(149, 68, 49, 0.35);
+@media (max-width: 520px) {
+  .mbc-page .founder-links {
+    grid-template-columns: 1fr;
+  }
 }
 
 .mbc-page .founder-image {

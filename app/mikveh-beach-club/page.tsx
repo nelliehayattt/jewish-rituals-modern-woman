@@ -258,7 +258,8 @@ export default function MikvehBeachClubPage() {
           </p>
           <div className="founder-links">
             <a href={links.course} target="_blank" rel="noreferrer">
-              Learn Mikveh &amp; Niddah with Nellie
+              <span>Learn with Nellie</span>
+              <em>Mikveh &amp; Niddah</em>
             </a>
             <a className="founder-book-link" href={links.book} target="_blank" rel="noreferrer">
               <span>Read her book</span>
