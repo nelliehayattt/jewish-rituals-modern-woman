@@ -72,13 +72,13 @@ export const pastEvents = [
     title: "Mikveh Beach Club — Full Moon Cheshvan",
     date: "October 25, 2026",
     location: "Santa Monica Beach, CA",
-    href: "/mikveh-beach-club",
+    href: "https://partiful.com/u/q4Xy3iislbf763gy22At",
   },
   {
     title: "Mikveh Beach Club — Before Yom Kippur",
     date: "September 20, 2026",
     location: "Santa Monica Beach, CA",
-    href: "/mikveh-beach-club",
+    href: "https://partiful.com/u/q4Xy3iislbf763gy22At",
   },
   {
     title: "Mimouna Co-Host for NuRoots + JFEDLA",
