@@ -60,20 +60,26 @@ export const secondaryOfferingNote =
 
 export const upcomingEvents = [
   {
-    title: "Sivan New Moon Circle",
-    date: "May 13th",
-    location: "Los Angeles, CA",
-    href: "https://community.atthewellproject.com/c/upcoming-events/los-angeles-sivan-gathering-with-nellie-hayat",
-  },
-  {
-    title: "Tamuz New Moon Circle",
-    date: "June 2026",
-    location: "Los Angeles, CA",
-    href: "",
+    title: "Los Angeles — Kislev New Moon Circle",
+    date: "November 10, 2026 · 7–9 PM",
+    location: "Santa Monica, CA",
+    href: "https://www.atthewellproject.com/event/los-angeles---kislev-new-moon-circle",
   },
 ];
 
 export const pastEvents = [
+  {
+    title: "Mikveh Beach Club — Full Moon Cheshvan",
+    date: "October 25, 2026",
+    location: "Santa Monica Beach, CA",
+    href: "/mikveh-beach-club",
+  },
+  {
+    title: "Mikveh Beach Club — Before Yom Kippur",
+    date: "September 20, 2026",
+    location: "Santa Monica Beach, CA",
+    href: "/mikveh-beach-club",
+  },
   {
     title: "Mimouna Co-Host for NuRoots + JFEDLA",
     date: "April 2026",
@@ -85,24 +91,6 @@ export const pastEvents = [
     date: "April 2026",
     location: "Los Angeles, CA",
     href: "https://www.instagram.com/p/DVJ0cNZk9Zz/?img_index=1",
-  },
-  {
-    title: "Tevet New Moon Gathering",
-    date: "Dec 2025",
-    location: "Los Angeles, CA",
-    href: "https://community.atthewellproject.com/c/upcoming-events/los-angeles-tevet-gathering-with-nellie-hayat",
-  },
-  {
-    title: "Mikveh Workshop at the Sacred Reset Retreat by At The Well",
-    date: "Nov 2025",
-    location: "Los Angeles, CA",
-    href: "",
-  },
-  {
-    title: "Panel The Evolution of Judaism by Grateful Giraffe",
-    date: "Sept 2025",
-    location: "Los Angeles, CA",
-    href: "https://luma.com/sacredjourney?tk=pcxZHo&utm_source=ep-8MneRa8DD1",
   },
 ];
 

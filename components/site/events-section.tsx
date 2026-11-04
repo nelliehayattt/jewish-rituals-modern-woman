@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { pastEvents, upcomingEvents } from "@/data/site";
 
 type EventItemProps = {
@@ -8,6 +9,8 @@ type EventItemProps = {
 };
 
 function EventItem({ title, date, location, href }: EventItemProps) {
+  const linkClassName =
+    "inline text-[0.94rem] leading-7 text-[var(--color-copy)] transition-colors duration-200 hover:text-[var(--color-burgundy)] md:text-[0.98rem] md:leading-8";
   const content = (
     <>
       <span className="font-display text-[1.05rem] text-[var(--color-burgundy)] md:text-[1.28rem]">
@@ -23,14 +26,15 @@ function EventItem({ title, date, location, href }: EventItemProps) {
   return (
     <li>
       {href ? (
-        <a
-          href={href}
-          target="_blank"
-          rel="noreferrer"
-          className="inline text-[0.94rem] leading-7 text-[var(--color-copy)] transition-colors duration-200 hover:text-[var(--color-burgundy)] md:text-[0.98rem] md:leading-8"
-        >
-          {content}
-        </a>
+        href.startsWith("/") ? (
+          <Link href={href} className={linkClassName}>
+            {content}
+          </Link>
+        ) : (
+          <a href={href} target="_blank" rel="noreferrer" className={linkClassName}>
+            {content}
+          </a>
+        )
       ) : (
         <span className="inline text-[0.94rem] leading-7 text-[var(--color-copy)] md:text-[0.98rem] md:leading-8">
           {content}
