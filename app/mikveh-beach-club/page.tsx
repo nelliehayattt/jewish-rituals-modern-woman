@@ -251,29 +251,18 @@ export default function MikvehBeachClubPage() {
           <p className="overline">Your host &amp; Mikveh teacher</p>
           <h2>Nellie Hayat</h2>
           <p>
-            Nellie Hayat is a keynote speaker, Jewish educator, and certified
-            Mikveh and Niddah teacher. A Technion-trained engineer, she spent
-            years in high tech advising innovative companies and CEOs. She
-            teaches the spiritual energy of the Hebrew calendar and Rosh Chodesh
-            with At The Well. As the founder of Mikveh Beach Club, she gathers
-            Jewish women for collective ocean immersions that weave Mikveh with
-            Torah, feminine wisdom, and community. She is the author of <em>The
-            Power of the Jewish Woman</em>.
+            Nellie is a certified Mikveh and Niddah teacher, Jewish educator,
+            and founder of Mikveh Beach Club. She creates joyful, meaningful
+            ways for Jewish women to experience ancient ritual through Torah,
+            feminine wisdom, and community.
           </p>
-          <a className="founder-book-link" href={links.book} target="_blank" rel="noreferrer">
-            <span>Read her book</span>
-            <em>The Power of the Jewish Woman</em>
-          </a>
-          <div className="founder-offer">
-            <h3>A more meaningful relationship with Mikveh and Niddah.</h3>
-            <p>
-              Private and small-group learning for Jewish women preparing for
-              marriage, returning to mikveh, marking a life transition, or
-              simply wanting to understand the ritual more deeply. Available in
-              Los Angeles and online.
-            </p>
-            <a className="primary-cta" href={links.course} target="_blank" rel="noreferrer">
-              Explore private learning
+          <div className="founder-links">
+            <a href={links.course} target="_blank" rel="noreferrer">
+              Learn Mikveh &amp; Niddah with Nellie
+            </a>
+            <a className="founder-book-link" href={links.book} target="_blank" rel="noreferrer">
+              <span>Read her book</span>
+              <em>The Power of the Jewish Woman</em>
             </a>
           </div>
         </div>

@@ -629,7 +629,6 @@
   display: grid;
   width: fit-content;
   gap: 2px;
-  margin-top: 14px;
   padding: 0 0 6px;
   color: var(--ocean-900);
   border-bottom: 1px solid rgba(8, 62, 90, 0.34);
@@ -651,26 +650,22 @@
   line-height: 1.05;
 }
 
-.mbc-page .founder-offer {
-  max-width: 720px;
-  margin-top: clamp(20px, 3vw, 30px);
-  padding-top: clamp(18px, 2.6vw, 26px);
+.mbc-page .founder-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px 28px;
+  margin-top: 20px;
+  padding-top: 18px;
   border-top: 1px solid rgba(149, 68, 49, 0.22);
 }
 
-.mbc-page .founder-offer h3 {
-  max-width: 660px;
-  margin: 0;
+.mbc-page .founder-links > a:first-child {
   color: var(--pomegranate);
   font-family: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
-  font-size: clamp(1.6rem, 2.6vw, 2.45rem);
+  font-size: 1.25rem;
   font-style: italic;
-  font-weight: 400;
-  line-height: 1.05;
-}
-
-.mbc-page .founder-offer p {
-  margin-top: 10px;
+  border-bottom: 1px solid rgba(149, 68, 49, 0.35);
 }
 
 .mbc-page .founder-image {
