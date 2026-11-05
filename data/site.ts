@@ -65,6 +65,12 @@ export const upcomingEvents = [
     location: "Santa Monica, CA",
     href: "https://www.atthewellproject.com/event/los-angeles---kislev-new-moon-circle",
   },
+  {
+    title: "Mizrahi Heritage Month in LA",
+    date: "November 30, 2026 · 7–9:30 PM",
+    location: "Beverly Hills, CA",
+    href: "https://partiful.com/e/fLAXdpbrDTG8rvJiKegs",
+  },
 ];
 
 export const pastEvents = [
