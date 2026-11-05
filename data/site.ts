@@ -69,7 +69,7 @@ export const upcomingEvents = [
     title: "Mizrahi Heritage Month in LA",
     date: "November 30, 2026 · 7–9:30 PM",
     location: "Beverly Hills, CA",
-    href: "https://partiful.com/e/fLAXdpbrDTG8rvJiKegs",
+    href: "https://mizrahi-heritage-night.nhayat664289.chatgpt.site/",
   },
 ];
 
